@@ -7,7 +7,7 @@ export const Formulario = styled.form`
 `
 
 export const Campo = styled.div`
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     display: flex;
     align-items: center;
 
@@ -37,4 +37,14 @@ export const Submit = styled.input`
     &:hover {
         cursor: pointer;
     }
+`
+
+export const Error = styled.p`
+    font-family: 'PT Sans', serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: red;
+    text-align: right;
+    text-transform: uppercase;
+    margin: 1rem 0 2rem 0;
 `
